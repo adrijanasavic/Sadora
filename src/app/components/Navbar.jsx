@@ -101,12 +101,12 @@ const Categories = () => {
     <>
       <li>
         <Link href="/products?category=bags" className="text-xl hover:text-red-400 transition-colors">
-          Torbe
+          Bags
         </Link>
       </li>
       <li>
         <Link href="/products?category=cap" className="text-xl hover:text-red-400 transition-colors">
-          Kape
+          Caps
         </Link>
       </li>
       <li>
@@ -114,7 +114,15 @@ const Categories = () => {
           href="/products?category=jokes"
           className="text-xl hover:text-red-400 transition-colors"
         >
-          Salevi
+          Jokes
+        </Link>
+          </li>
+          <li>
+        <Link
+          href="/products"
+          className="text-xl hover:text-red-400 transition-colors"
+        >
+          All Products
         </Link>
       </li>
     </>
